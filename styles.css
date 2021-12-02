@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: verdana;
+	max-width: 500px;
+	margin: auto;
+	height: 600px;
+	align-items: center;
+}
+h1{
+	background-color: #04831D;
+	text-align: center;
+	color: white;
+}
+
+#wrapper{
+	position: absolute;
+	top: 10%;
+	width: 500px;
+	margin: auto;
+	text-align: center;	
+}
+
+#divPrevisao{
+	align-items: center;
+}
+
+#entrada{
+	/* padding: 15px 32px;
+	margin: 5px 5px 10px 120px; */
+	margin-top: 5px;
+	display: block;
+}
+
+input{
+	margin-top: 5px;
+	display: block;
+}
+
+#cidade{
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+
+}
+
+#botao{
+	background-color: #04831D;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	/* margin: 5px 5px 10px 185px; */
+	margin-left: auto;
+	margin-right: auto;
+	/* text-align: center; */
+	/* text-decoration: none; */
+	/* display: inline-block; */
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#principal{
+	display: none;
+	border-style: solid;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+#nome{
+	text-transform: capitalize;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#temperatura{
+	display: flex;
+	justify-content: center;
+}
+#imagem{
+	margin-left: 10px;
+	text-align: center;
+}
+#temp_atual{
+	padding-top: 15px;
+	
+	text-align: center;
+	/* padding-left: 10px; */
+	font-size: 48px;
+	
+}
+#mapa{
+	display: none;
+	height: 250px;
+	margin-top: 5px;
+} 

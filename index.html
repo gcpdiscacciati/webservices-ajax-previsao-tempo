@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Previsão do Tempo</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Previsão do Tempo</h1>
+			<div>
+				<div id="divPrevisao">
+					<label id="entrada">
+						Digite o nome da cidade: <input type="text" id="cidade" name="city" placeholder="Ex.: Barbacena" required>
+					</label>
+					<input type="button" id="botao" value="Pesquisar" onclick="handleSubmit()">
+
+				</div>
+			</div>
+			<div id="principal">
+				
+			</div>
+			<div id="mapa">
+
+			</div>
+		</div>
+		
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMY7BX8mL1MxT-r2WLylamUv2XEAF_lTU&callback=createMap&v=weekly"
+			async
+		></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+	</body>
+</html>
